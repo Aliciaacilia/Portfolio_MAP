@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #babdc4;
+  color: #47505c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  max-width: 75rem;
+  height: 100%;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.3);
+  background-color: #a7b3c5;
+}
+
+.sidebar {
+  background-color: #8c98a2;;
+  width: 35%;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 1rem;
+  border: 5px solid #274e6e;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.info h1 {
+  font-size: 1.375rem;
+  margin-bottom: 0.3125rem;
+}
+
+.role {
+  color: #000000f1;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.contact p {
+  margin: 0.625rem 0;
+  font-size: 0.875rem;
+}
+
+.download-btn {
+  background-color: #2a2a2a;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 1.25rem;
+  display: block;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #444;
+}
+
+.social-icons {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icons img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.content {
+  background-color: #1e1e1e;
+  width: 65%;
+  padding: 1.875rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.education h2, .tech-stack h2 {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.job {
+  margin-bottom: 1.5625rem;
+}
+
+.job h3 {
+  font-size: 1rem;
+}
+
+.job-title {
+  color: #999;
+  font-size: 0.875rem;
+}
+
+.description {
+  font-size: 0.8125rem;
+  color: #ccc;
+  margin-top: 0.3125rem;
+}
+
+.years {
+  color: #777;
+  font-size: 0.75rem;
+}
+
+.tech-stack .icons {
+  display: flex;
+  gap: 0.625rem;
+  margin-top: 0.625rem;
+}
+
+.tech-stack .icons img {
+  width: 2rem;
+  height: 2rem;
+}
